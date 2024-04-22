@@ -1,0 +1,63 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .navbar{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  .nav-header{
+    overflow: none;
+  }
+}
+@media only screen and (max-width: 1800px), (max-device-width: 1800px) and (min-device-width: 800px) {
+    .box-img{
+        display: grid;
+        grid-template-columns:1fr auto; 
+        grid-template-rows:1fr auto; 
+        grid-column-gap:15px;
+        grid-row-gap:30px;
+    }
+}
+@media(max-width: 500px){
+    .footer-container{
+      flex-direction:column;
+    }
+}
+@media screen and (max-height: 800px) {
+    .carousel-item {
+    height: 24rem;
+    }
+}
+@media screen and (max-width:768px) {
+  .list{
+    margin-top: 0px ;
+    font-size: 12px;
+  }
+  .see-more a{
+    font-size: 12px;
+  }
+  .nav-search{
+    display: none;
+  }
+  .nav-search-mob
+  {
+    margin-top:65px !important;
+    display: block  !important;
+    
+  }
+  .footer-container{
+    font-size: 12px;
+  }
+  .box1 h2{
+    font-size: 14px;
+  }
+  .footer-child ul{
+    font-size: 12px;
+  }
+  .image-slide-2{
+    font-size: 12px;
+  }
+  .see-more-deals{
+    font-size: 10px;
+  }
+}
+

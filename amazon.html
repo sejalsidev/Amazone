@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/amazon-icon.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <title>Amazon</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <script src="./slider.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="hdn-head">
+           <h2> Hello, Sign in</h2>
+        </div>
+        <div class="hdn-content">
+            <h3>Trending</h3>
+            <ul>
+                <div>
+                    <li>Best Seller</li><i class="fa fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>New Releases</li><i class="fa fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Movers & Shakers</li><i class="fa fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Movers & Shakers</li><i class="fa fa-angle-right"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="hdn-content">
+            <h3>Trending</h3>
+            <ul>
+                <div>
+                    <li>Best Seller</li><i class="fa fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>New Releases</li><i class="fa fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Movers & Shakers</li><i class="fa fa-angle-right"></i>
+                </div>
+            </ul>
+           <hr>
+        </div>
+        <div class="hdn-content">
+            <h3>Trending</h3>
+            <ul>
+                <div>
+                    <li>Best Seller</li><i class="fa fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>New Releases</li><i class="fa fa-angle-right"></i>
+                </div>
+                <div>
+                    <li>Movers & Shakers</li><i class="fa fa-angle-right"></i>
+                </div>
+            </ul>
+           <hr>
+        </div>
+       
+    </div>
+    <i class="fa-solid fa-xmark"></i>
+    <div class="triangle"></div>
+    <div class="hdn-sign"> 
+        <div class="hdn-table">
+            <div>
+                <h3>Your Lists</h3>
+                <ul>
+                    <li>Create a List</li>
+                    <li>Find a List & Registry</li>
+                    <li>Amazon Smile Charity Lists</li>
+                </ul>
+            </div>
+            <div class="hdn-line"></div>
+            <div>
+                <h3>Your Account</h3>
+                <ul>
+                    <li>Account</li>
+                    <li>Recommandations</li>
+                    <li>orders</li>
+                    <li>Browsing History</li>
+                    <li>WatchLists</li>
+                    <li>Video Purchases</li>
+                    <li>Kindle Unlimited</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="black"></div>
+    <header class="header">
+         <div class="navbar nav-header">
+            <div class="nav-logo border">
+                
+                <div id="logo"><img src="./images/Amazon-Logo.png"></div>
+            </div>
+            <div class="nav-address border" onclick="togglePopup()" >
+                <div class="popup"  id="popup-1" >
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+                        <h3>Choose your location</h3>
+                        <div class="line"></div>
+                        <p>Select a delivery location to see product availability and delivery options</p>
+                        <input type="submit" value="Sign in to see your addresses">
+                    </div>
+                </div>
+                 <p class="surat">Delivering to surat 394107</p>  
+                <div class="add-icon" >
+                     <i class="fa-solid fa-location-dot fa-2xs" style="color: #ffffff; font-size:1rem;" ></i></i>
+                     <p class="update"><span>Update Location</span></p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select ">
+                    <option class="search">All Categories</option>
+                    <option>Alexa skills</option>
+                    <option>Aamzon Devices</option>
+                    <option>Amazon Fashion</option>
+                    <option>Apps & Games</option>
+                    <option>Audible Audiobooks</option>
+                    <option>Baby</option>
+                    <option>Beauty</option>
+                    <option>Books</option>
+                    <option>Car & Motorbike</option>
+                    <option>Clothing & Accessories</option>
+                    <option>Collectible</option>
+                    <option>computer & Accessories</option>
+                    <option>Deals</option>
+                    <option>Electronics</option>
+                    <option>Furniture</option>
+                    <input type="text" placeholder="Search amazon" class="search-input">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></div>
+                </select>
+            </div> 
+            <div class="language-container border">
+                <div class="language-menu">
+                    <div class="langugage-menu-list">
+                        <div class="langugage-menu-list-top">
+                            <input type="radio" id="english" name="fav_language" value="English-EN" checked>
+                            <label for="english">English-EN</label>
+                            <input type="radio" id="hindi" name="fav_language" value="हिन्दी - HI">
+                            <label for="hindi">हिन्दी - HI</label>
+                            <input type="radio" id="ta" name="fav_language" value="தமிழ் - TA">
+                            <label for="ta">தமிழ் - TA</label>
+                            <input type="radio" id="te" name="fav_language" value="తెలుగు - TE">
+                            <label for="te">తెలుగు - TE</label>
+                            <input type="radio" id="MR" name="fav_language" value="मराठी - MR">
+                            <label for="MR">मराठी - MR</label>
+                            <p><a href="#">Learn more</a></p>
+                            <div class="india-flag">
+                                 <img src="images/India-Flag.webp" alt="">
+                                 <p>You are shopping on Amazon.in</p>
+                            </div>
+                            <p><a href="">Change country/region.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="language-image">
+                    <img src="https://img.freepik.com/free-vector/illustration-india-flag_53876-27130.jpg">
+                   
+                </div>
+                 <div class="select-lang">EN</div>
+            </div>
+            <div class="login-container border">
+                <p>Hello,<span>Sign in</span></p>
+                <p class="account">Account & Lists</p>
+            </div>
+            <div class="return-order-container border">
+                <p>Returns</p>
+                <span class="orders">& Orders</span>
+            </div>
+            <div class="cart-container border">
+                <i class="fa-solid fa-cart-flatbed-suitcase"></i>Cart
+            </div>
+        </div> 
+  <div class="Mobiles">
+    <div class="nav-search-mob">
+        <div class="nav-mob">
+            <select class="search-select ">
+                <option class="search">All Categories</option>
+                <option>Alexa skills</option>
+                <option>Aamzon Devices</option>
+                <option>Amazon Fashion</option>
+                <option>Apps & Games</option>
+                <option>Audible Audiobooks</option>
+                <option>Baby</option>
+                <option>Beauty</option>
+                <option>Books</option>
+                <option>Car & Motorbike</option>
+                <option>Clothing & Accessories</option>
+                <option>Collectible</option>
+                <option>computer & Accessories</option> 
+                <option>Deals</option>
+                <option>Electronics</option>
+                <option>Furniture</option>
+                <input type="text" placeholder="Search amazon" class="search-input">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></div>
+            </select>
+        </div> 
+    </div>
+  </div>
+        <div class="nav-bottom">
+           <ul class="list">
+               <div class="all border active">
+                    <i class="fa fa-bars"></i>
+                    <p>All</p>
+                </div>
+                <div class="" id="myLinks">
+                <li class="item border">
+                  <a href="#">Amazon miniTV</a>
+                </li>
+                <li class="item border">
+                  <a href="#">sell</a>
+                </li>
+                <li class="item border">
+                  <a href="#">Mobiles</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Prime</a>
+                  </li>
+                <li class="item border">
+                <a href="#">Customer Service</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Electronics</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Home & Kitchen</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Amazon pay</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Fashion</a>
+                </li>
+                <li class="item border">
+                    <a href="#">computers</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Books</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Toys & Games</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Best Seller</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Home Improvement</a>
+                </li>
+                <li class="item border">
+                    <a href="#">Car & Motorbike</a>
+                </li>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars"></i></a>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <div class="container position">
+        <div class="image-slider-1">
+            <div class="owl-carousel owl-theme slider1 " id="slider-banner">
+                <div class="item"><img src="./images/slider1.jpg" alt=""></div>
+                <div class="item"><img src="./images/slider2.jpg" alt=""></div>
+                <div class="item"><img src="./images/slider3.jpg" alt=""></div>
+                <div class="item"><img src="./images/slider4.jpg" alt=""></div>
+                <div class="item"><img src="images/slider5.jpg" alt=""></div>
+            </div>
+            <div class="shop-content">
+                <div class="box1 box">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/Air conditioners.jpg">
+                <p>Air conditioners</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Refrigerators.jpg">
+                <p>Refrigerators</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Microwaves.jpg">
+                <p>Microwaves</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Washing machines.jpg">
+                <p>Washing machines</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">See more</a></p>
+                </div>
+                <div class="box1 box">
+            <h2>Up to 60% off | Styles for men</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/clothing.jpg">
+                <p>clothing</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/footwear.jpg">
+                <p>FootWear</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/watches.jpg">
+                <p>Watches</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/bags & wallets.jpg">
+                <p>Bags & Wallets</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">End of season sale</a></p>
+                </div>
+                <div class="box1 box">
+            <h2>Up to 75% off | Headphones</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/boat.jpg">
+                <p>Up to 75% off|boat</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/boult.jpg">
+                <p>Up to 75% off|boult</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Noise.jpg">
+                <p>Up to 75% off|Noise</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Zebronics.jpg">
+                <p>Up to 75% off|Zebronics</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">See all Offers</a></p>
+                </div>
+                <div class="box1 box">
+            <h2>Starting ₹99 |All your home improvement needs</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/spinmops.jpg">
+                <p>Spin mops,wipes</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/bathroom-hardware.jpg">
+                <p>Bathroom-Haradware</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/hammers.jpg">
+                <p>Hammers</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/extension boards.jpg">
+                <p>Extension-boards</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">Explore all</a></p>
+                </div>
+                <div class="box1 box">
+            <h2>Revamp your home in style</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/Cushion covers.jpg">
+                <p>Cushion covers</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Figurines.jpg">
+                <p>Figurines,vases</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Home storage.jpg">
+                <p>Home storage</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/lighting solution.jpg">
+                <p>lighting solution</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">Explore all</a></p>
+                </div>
+                <div class="box1 box">
+            <h2>Up to 60% off | Styles for women</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/women clothing.jpg">
+                <p>Women clothing</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/footwear.jpg">
+                <p>FootWear</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/watches.jpg">
+                <p>Watches</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/fashion jwellery.jpg">
+                <p>fashion jwellery</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">End of season sale</a></p>
+                </div>
+                <div class="box1 box">
+            <h2>Automotive essentials | Up to 60% off</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/cleaning accessories.jpg">
+                <p>cleaning accessories</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Tyre & rim care.jpg">
+                <p>Tyre & rim care</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/helmets.jpg">
+                <p>Helmets</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/Vaccum.jpg">
+                <p>Vaccum cleaner</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">See more</a></p>
+                </div>
+                <div class="box1 box">
+            <h2>Starting ₹99 |All your home improvement needs</h2>
+            <div class="box-img">
+             <div class="card-nested">
+                <img src="./images/spinmops.jpg">
+                <p>Spin mops,wipes</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/bathroom-hardware.jpg">
+                <p>Bathroom-Haradware</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/hammers.jpg">
+                <p>Hammers</p>
+            </div>
+            <div class="card-nested">
+                <img src="./images/extension boards.jpg">
+                <p>Extension-boards</p>
+            </div>
+            </div>
+            <p class="see-more"><a href="">See more</a></p>
+                </div>
+            </div>
+    </div>
+        <div class="slide-content">
+        <div class="image-slide-2">
+        <h3>Today's deals</h3>
+        <p class="see-more-deals"><a href="">see all deals</a></p></div>
+        <div class="owl-carousel owl-theme slider2" >
+             <div class="item"><img src="./images/shoes.jpg" alt="img-1" class="image-item"></div>
+             <div class="item"><img src="./images/cleaning accessories.jpg" alt="img-2" class="image-item"></div>
+             <div class="item"><img src="./images/clothes.jpg" alt="img-3" class="image-item"></div>
+             <div class="item"><img src="./images/cover.jpg" alt="img-4" class="image-item"></div>
+             <div class="item"><img src="./images/Cushion covers.jpg" alt="img-5" class="image-item"></div>
+             <div class="item"><img src="./images/cleaning supplies.jpg" alt="img-6" class="image-item"></div>
+             <div class="item"><img src="./images/Figurines.jpg" alt="img-7" class="image-item"></div>
+             <div class="item"><img src="./images/fashion jwellery.jpg" alt="img-8" class="image-item"></div>
+             <div class="item"><img src="./images/machine.jpg" alt="img-9" class="image-item"></div>
+             <div class="item"><img src="./images/shoes.jpg" alt="img-10" class="image-item"></div>
+        </div>
+    </div>
+    </div>
+    <div class="line"></div>
+    <div class="signin-button">
+            <p>See personalized recommendations</p>
+            <input type="submit" value="Sign in">
+            <div class="new_customer">
+                <span>New Customer?</span>
+                <a href="">Start Here</a>
+            </div>
+    </div>
+    <div class="line"></div>
+    <div class="back-to-top">
+        <p>Back To Top</p>
+    </div>
+    <div class="footer-container">
+        <div class="footer-child">
+        <div>
+            <h4 class="footer-headline">Get to Know Us</h4>
+                <ul class="footer-list">
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">Press Releases</a></li>
+                  <li><a href="">Amazon Science</a></li>
+                </ul>
+        </div>
+        <div>
+            <h4 class="footer-headline">Connect with Us</h4>
+                <ul class="footer-list">
+                  <li><a href="">Facebook</a></li>
+                  <li><a href="">Twitter</a></li>
+                  <li><a href="">Instagram</a></li>
+                </ul>
+        </div>
+        <div>
+            <h4 class="footer-headline">Make Money with Us</h4>
+                <ul class="footer-list">
+                  <li><a href="">Sell on Amazon</a></li>
+                  <li><a href="">Sell under Amazon Accelerator</a></li>
+                  <li><a href="">Protect and Build Your Brand</a></li>
+                  <li><a href="">Amazon Global Selling</a></li>
+                  <li><a href="">Become an Affiliate</a></li>
+                  <li><a href="">Fulfilment by Amazon</a></li>
+                  <li><a href="">Advertise Your Products</a></li>
+                  <li><a href="">Amazon Pay on Merchants</a></li>
+                </ul>
+        </div>
+        <div>
+            <h4 class="footer-headline">Let Us Help You</h4>
+                <ul class="footer-list">
+                  <li><a href="">COVID-19 and Amazon</a></li>
+                  <li><a href="">Your Account</a></li>
+                  <li><a href="">Returns Centre</a></li>
+                  <li><a href="">100% Purchase Protection</a></li>
+                  <li><a href="">Help</a></li>
+                </ul>
+        </div>
+    </div>
+    </div>
+    <div class="footer-logo ">
+                <img src="./images/footer-amazon.jpg">
+                <select name="" id="" class="sele">
+                    <option value="En"><i class="fa-light fa-globe"></i>English</option>
+                    <option value="">Hindi</option>
+                    <option value="">Marathi</option>
+                    <option value="">Tamil</option>
+                </select>
+    </div>
+   <div class="main-footer">
+    <div class="footerline">
+            <ul class="li-name">
+                <li class="first"><a href="">Australia</a></li>
+                <li><a href="">Brazil</a></li>
+                <li><a href="">Canada</a></li>
+                <li><a href="">China</a></li>
+                <li><a href="">France</a></li>
+                <li><a href="">Germany</a></li>
+                <li><a href="">Italy</a></li>
+                <li><a href="">Japan</a></li>
+                <li><a href="">Mexico</a></li>
+                <li><a href="">Netherlands</a></li>
+                <li><a href="">Poland</a></li>
+                <li><a href="">Singapore</a></li>
+                <li><a href="">Spain</a></li>
+                <li><a href="">Turkey</a></li>
+                <li><a href="">United Arab Emirates</a></li>
+                <li><a href="">United Kingdom</a></li>
+                <li class="last"><a href="">United States</a></li>
+            </ul>
+    </div>
+   </div>
+   <div class="footer-last-container">
+    <div class="footer-inner">
+    <div>
+        <h6 class="footer-title">Abebooks</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Books, art
+                & collectibles</a></li>
+            </ul>
+    </div>
+    <div>
+        <h6 class="footer-title">Amazon Web Services</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Scalable Cloud</a></li>
+              <li><a href="">Computing Services</a></li>
+            </ul>
+    </div>
+    <div>
+        <h6 class="footer-title">Audible</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Download</a></li>
+              <li><a href="">Audio Books</a></li>
+            </ul>
+    </div>
+    <div>
+        <h6 class="footer-title">IMDb</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Movies, TV</a></li>
+            </ul>
+    </div>
+    <div>
+        <h6 class="footer-title">Audible</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Download</a></li>
+              <li><a href="">Audio Books</a></li>
+            </ul>
+    </div>
+    <div>
+        <h6 class="footer-title">Abebooks</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Books, art
+                & collectibles</a></li>
+            </ul>
+    </div>
+    <div>
+        <h6 class="footer-title">Amazon Web Services</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Scalable Cloud</a></li>
+              <li><a href="">Computing Services</a></li>
+            </ul>
+    </div>
+    <div>
+        <h6 class="footer-title">Audible</h6>
+            <ul class="footer-content-list">
+              <li><a href="">Download</a></li>
+              <li><a href="">Audio Books</a></li>
+            </ul>
+    </div>
+    </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="copyright-link">
+         <ul class="li-copyright">
+             <li><a href="">Conditions of Use</a></li>
+             <li><a href="">Privacy Notice</a></li>
+             <li><a href="">Consumer Health Data Privacy Disclosure</a></li>
+             <li><a href="">Your Ads Privacy Choices</a></li>
+         </ul>
+         <span>© 1996-2024, Amazon.com, Inc. or its affiliates</span>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+<script type="text/javascript">
+    $('.slider1').owlCarousel({
+       loop:true,
+       margin:10,
+       nav:true,
+       items:1,
+    //    responsive:{
+    //    0:{
+    //        items:1
+    //    },
+    //    400:{
+    //        items:2
+    //    },
+    //    600:{
+    //        items:3
+    //    },
+    //    1000:{
+    //        items:4
+    //    },
+    //    1400:{
+    //        items:5
+    //    }
+    //    }
+       });
+</script>
+<script type="text/javascript">
+    $('.slider2').owlCarousel({
+       loop:true,
+       margin:5,
+       nav:true,
+       items:6,
+    //    responsive:{
+    //    0:{
+    //        items:1
+    //    },
+    //    200:{
+    //        items:2
+    //    },
+    //    400:{
+    //        items:3
+    //    },
+    //    600:{
+    //        items:4
+    //    },
+    //    800:{
+    //        items:5
+    //    }
+    //    }
+       });
+</script>
+<!-- ------navbar--------- -->
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+</script>
+    
+</script>
+</html>
