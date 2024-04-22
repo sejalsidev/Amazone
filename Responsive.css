@@ -60,4 +60,10 @@
     font-size: 10px;
   }
 }
+@media screen and (min-width:400px) {
+  .nav-search-mob{
+    margin-top: 90px !important;
+    display:block !important;
+  }
+}
 
