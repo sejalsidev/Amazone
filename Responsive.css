@@ -1,13 +1,31 @@
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (max-width: 667px) {
   .navbar{
     width: 100%;
     margin: auto;
     padding: 0;
   }
-  .nav-header{
-    overflow: none;
-  }
+
 }
+@media (max-width: 1000px) {
+  .container{
+    padding:0px 70px;
+}
+}
+@media (max-width: 1100px) {
+  .container{
+    padding:0px 100px;
+}
+}
+@media (max-width: 700px) {
+  .container{
+    padding:0px 0px;
+}
+}
+@media (max-width:500){
+  .navbar{
+    padding:10px;
+  }
+ }
 @media only screen and (max-width: 1800px), (max-device-width: 1800px) and (min-device-width: 800px) {
     .box-img{
         display: grid;
@@ -42,7 +60,8 @@
   {
     margin-top:65px !important;
     display: block  !important;
-    
+    font-size: 10px !important;
+    width:auto
   }
   .footer-container{
     font-size: 12px;
@@ -58,12 +77,6 @@
   }
   .see-more-deals{
     font-size: 10px;
-  }
-}
-@media screen and (min-width:400px) {
-  .nav-search-mob{
-    margin-top: 90px !important;
-    display:block !important;
   }
 }
 

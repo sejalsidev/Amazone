@@ -17,7 +17,7 @@ body{
     transform: translateX(-390px);
     transition: all 0.5s;
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     box-shadow: 2px 2px 30px black;
     cursor: pointer;
 }
@@ -75,7 +75,7 @@ body{
 }
 .black.active{
     width: 100%;
-    z-index: 100;
+    z-index: 4;
 }
 .black.active-1{
     top:70px;
@@ -148,21 +148,8 @@ body{
     position: relative;
     cursor: pointer;
 }
-.wpdf_slider img {     
-    height: 750px;
-    width: 100%; 
-}  
-.wpdf_slider img {   
-    object-fit: none;     
-    object-position: 70% 0%;     
-    object-position: 60 0; 
-}
-.owl-prev, .owl-next{
-    background-color: #dfddd9 !important;
-    z-index: 999 !important;
-}
 .owl-theme .owl-nav {
-    margin-top: 10px;
+
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -182,6 +169,7 @@ button.owl-prev span{
 button.owl-next span{
     font-size: 50px !important; 
     background: #D6D6D6 transparent;
+    margin-bottom: 50px;
 }
 .container{
     padding:0px 200px;
@@ -214,6 +202,7 @@ button.owl-next span{
     display: flex;
     align-items: center;
     height:auto;
+    white-space: nowrap;
 }
 .nav-logo{
     /* overflow: hidden; */
@@ -833,7 +822,7 @@ button.owl-next span{
     padding: 0 5px;
 }
 .slide-content{
-    background: #DDD;
+    background: white;
     padding: 10px;
     padding-top: 10px;  
     width:100%;
