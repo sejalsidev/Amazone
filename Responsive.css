@@ -21,11 +21,6 @@
     padding:0px 0px;
 }
 }
-@media (max-width:500){
-  .navbar{
-    padding:10px;
-  }
- }
 @media only screen and (max-width: 1800px), (max-device-width: 1800px) and (min-device-width: 800px) {
     .box-img{
         display: grid;
